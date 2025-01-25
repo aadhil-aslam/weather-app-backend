@@ -35,11 +35,12 @@ This is the backend service for the Weather Display Application. It provides wea
 
 3. Create a .env file in the root directory and add the following environment variables:
     WEATHER_API_KEY=<your-openweathermap-api-key>
-    FIREBASE_SERVICE_ACCOUNT_PATH=/wather-cast-firebase-adminsdk-fbsvc-8be16ddac4.json
 
-4. Add the firebase service account json file into config folder - 'wather-cast-firebase-adminsdk-fbsvc-8be16ddac4.json'
+4. Add the firebase service account json file into config folder.
 
-5. Start the server: 
+5. Set up firebaseConfig.js by replacing the ‘./config/ywather-cast-firebase-adminsdk-fbsvc-8be16ddac4.json’ with the actual path to Firebase service account credentials file.
+
+6. Start the server: 
     npm start
 
 The server will run on http://localhost:5000.
